@@ -1,8 +1,8 @@
 # minio-nginx-proxy-directlink-streaming
 
-Enviroment: Ubuntu 22, install docker, docker-compose
+Enviroment: Ubuntu, installed docker, docker-compose
 
-**Commmand**
+**Command**
 
 docker-compose up 
 
