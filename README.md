@@ -4,25 +4,25 @@ Enviroment: Ubuntu, installed docker, docker-compose
 
 **Command**
 
-docker-compose up 
+'docker-compose up' 
 
-docker ps  
+'docker ps'  
 ![image](https://github.com/dungla2011/minio-nginx-proxy-directlink-streaming/assets/7878963/734ecb1d-d3f7-436d-ae9c-24cc21c32bf9)
 
 
 #Set alias for a deployment name  
 (replace **share-minio-1** with **share_minio_1**, depend on your setup)
 
-docker exec -it share-minio-1 mc alias set 'myminio' 'http://127.0.0.1:9000' admin 11111111  
+'docker exec -it share-minio-1 mc alias set 'myminio' 'http://127.0.0.1:9000' admin 11111111'  
 
 #Create Bucket:  
-docker exec -it share-minio-1 mc mb myminio/mydata  
+'docker exec -it share-minio-1 mc mb myminio/mydata'  
 
 #Share all public bucket mydata  
-docker exec -it share-minio-1 mc anonymous set download myminio/mydata  
+'docker exec -it share-minio-1 mc anonymous set download myminio/mydata'  
 
 Upload one image file, for ex: 01.png in this url:  
-http://10.0.0.18/browser/mydata  
+'http://10.0.0.18/browser/mydata'  
 
 ![image](https://github.com/dungla2011/minio-nginx-proxy-directlink-streaming/assets/7878963/76348ee4-5cd9-4e21-b4ee-60f60e78a664)
 
