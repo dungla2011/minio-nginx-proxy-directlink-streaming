@@ -1,5 +1,9 @@
 # minio-nginx-proxy-directlink-streaming
 
+Enviroment: Ubuntu 22, install docker, docker-compose
+
+**Commmand**
+
 docker-compose up 
 
 #Set alias for a deployment name  
