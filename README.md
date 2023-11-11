@@ -4,7 +4,7 @@ Enviroment: Ubuntu, installed docker, docker-compose
 
 **Command**
 
-'docker-compose up' 
+`docker-compose up` 
 
 'docker ps'  
 ![image](https://github.com/dungla2011/minio-nginx-proxy-directlink-streaming/assets/7878963/734ecb1d-d3f7-436d-ae9c-24cc21c32bf9)
