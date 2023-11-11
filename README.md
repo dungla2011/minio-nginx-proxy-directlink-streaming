@@ -28,7 +28,7 @@ http://10.0.0.18/browser/mydata
 
 
 
-Access to show image: http://10.0.0.18:81/mydata/01.jpg   
+Access to show directlink image: http://10.0.0.18:81/mydata/01.jpg   
 
 
 ![image](https://github.com/dungla2011/minio-nginx-proxy-directlink-streaming/assets/7878963/40e6f2fd-3a06-498c-b05d-9eb228175a46)
